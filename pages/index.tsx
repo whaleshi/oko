@@ -12,12 +12,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <meta property="og:title" content="Oko.fun" />
         <meta property="og:description" content="X Layer 上的创新 Launchpad" />
-        <meta property="og:image" content="/share.png" />
+        <meta property="og:image" content="https://newgame.mypinata.cloud/ipfs/bafybeifqw6ziyxhfys562ttbo6rk7ybzb4ft2h4zempspd5e25ykgys4ru" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Oko.fun" />
         <meta name="twitter:description" content="X Layer 上的创新 Launchpad" />
-        <meta name="twitter:image" content="/share.png" />
+        <meta name="twitter:image" content="https://newgame.mypinata.cloud/ipfs/bafybeifqw6ziyxhfys562ttbo6rk7ybzb4ft2h4zempspd5e25ykgys4ru" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

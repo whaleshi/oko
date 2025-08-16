@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #0e0e0e;
+    color: #ffffff;
+    height: 100%;
+    overflow: hidden;
+}
+
+@layer base {
+    /* 英文字体 */
+    @font-face {
+        font-family: "Manrope-Bold";
+        src: url("/fonts/Manrope-Bold.ttf") format("truetype");
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: "Manrope-Medium";
+        src: url("/fonts/Manrope-Medium.ttf") format("truetype");
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: "Manrope-SemiBold";
+        src: url("/fonts/Manrope-SemiBold.ttf") format("truetype");
+        font-weight: 700;
+    }
+
+    /* 中文字体 */
+    @font-face {
+        font-family: "AlibabaPuHuiTi-3-55-Regular";
+        src: url("/fonts/AlibabaPuHuiTi-3-55-Regular.otf") format("opentype");
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: "AlibabaPuHuiTi-3-65-Medium";
+        src: url("/fonts/AlibabaPuHuiTi-3-65-Medium.otf") format("opentype");
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: "AlibabaPuHuiTi-3-75-SemiBold";
+        src: url("/fonts/AlibabaPuHuiTi-3-75-SemiBold.otf") format("opentype");
+        font-weight: 700;
+    }
+}
+
+.lang-zh {
+    --font-500: "AlibabaPuHuiTi-3-55-Regular";
+    --font-600: "AlibabaPuHuiTi-3-65-Medium";
+    --font-700: "AlibabaPuHuiTi-3-75-SemiBold";
+}
+
+.lang-en {
+    --font-500: "Manrope-Medium";
+    --font-600: "Manrope-SemiBold";
+    --font-700: "Manrope-Bold";
+}
+
+.f500 {
+    font-family: var(--font-500);
+}
+.f600 {
+    font-family: var(--font-600);
+}
+.f700 {
+    font-family: var(--font-700);
+}
+
+.f5001 {
+    font-family: "Manrope-Medium";
+}
+.f6001 {
+    font-family: "Manrope-SemiBold";
+}
+.f7001 {
+    font-family: "Manrope-Bold";
+}

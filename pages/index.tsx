@@ -40,7 +40,7 @@ export default function Home() {
           <GridCanvas />
 
           {/* 按钮组 */}
-          <div className="flex flex-col gap-[12px] mt-[40px]">
+          <div className="flex flex-col" style={{ marginTop: '40px', gap: '12px' }}>
             {/* Coming soon 按钮 */}
             <Button
               radius="full"

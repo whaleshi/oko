@@ -62,7 +62,7 @@ export default function Home() {
         </div>
 
         {/* 版权信息 */}
-        <footer className="fixed bottom-0 left-0 right-0 pb-[20px]">
+        <footer className="fixed bottom-0 left-0 right-0" style={{ paddingBottom: '20px' }}>
           <div className="text-center">
             <p className="text-[11px]" style={{ color: 'rgba(255, 255, 255, 0.35)' }}>
               © oko.fun 2025

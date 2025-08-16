@@ -16,8 +16,8 @@
     "viem": "^2.21.19",
     "@tanstack/react-query": "^5.56.2",
     "@rainbow-me/rainbowkit": "^2.1.6",
-    "@heroui/react": "^1.2.2",
-    "@heroui/theme": "^1.2.2",
+    "@heroui/react": "^2.8.2",
+    "@heroui/theme": "^2.8.2",
     "framer-motion": "^11.0.0"
   },
   "devDependencies": {

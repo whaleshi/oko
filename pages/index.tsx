@@ -26,7 +26,17 @@ export default function Home() {
       <main className="h-screen bg-[#0E0E0E] overflow-hidden">
         {/* PC端：导航栏80px + 间距60px = 140px */}
         {/* H5端：导航栏56px + 间距60px = 116px */}
-        <div className="flex flex-col items-center pt-[116px] md:pt-[140px]">
+        <style jsx>{`
+          .content-container {
+            padding-top: 116px;
+          }
+          @media (min-width: 768px) {
+            .content-container {
+              padding-top: 140px;
+            }
+          }
+        `}</style>
+        <div className="flex flex-col items-center content-container">
           <GridCanvas />
 
           {/* 按钮组 */}

@@ -8,7 +8,10 @@ export const Navbar = () => {
   return (
     <nav className="fixed w-full top-0 z-50">
       <div className="h-14 md:h-20">
-        <div className="w-full md:max-w-[1440px] md:mx-auto h-full px-4 flex justify-between items-center">
+        <div 
+          className="w-full md:max-w-[1440px] md:mx-auto h-full flex justify-between items-center"
+          style={{ paddingLeft: '16px', paddingRight: '16px' }}
+        >
           <div className="flex items-center gap-2">
             <Link href="/">
               <LogoIcon />
